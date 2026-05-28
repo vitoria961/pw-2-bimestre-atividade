@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ var numero = [];
+
+    numero.push(1, 3, 4, 5, 7, 6, 9, 8, 10, 2);
+
+    document.write("Array Original: " + numero + "<br>");
+
+    numero.pop();
+    numero.pop();
+    numero.pop();
+
+    document.write("Depois do pop(): " + numero + "<br>");
+
+    numero.sort((a, b) => a - b);
+
+    document.write("Depois do sort(): " + numero + "<br>");
+
+    numero.map((item) => {
+        document.write("Número: " + item + "<br>");
+    });
+
+    var maioresQue5 = numero.filter((item) => {
+        return item > 5;
+    });
+
+    document.write("Filter maiores que 5: " + maioresQue5 + "<br>");
+
+    var encontrado = numero.find((item) => {
+        return item == 7;
+    });
+
+    document.write("Find número 7: " + encontrado + "<br>");
+
+    document.write("Length: " + numero.length + "<br>");
+
+    numero.splice(2, 1, 100);
+
+    document.write("Depois do splice(): " + numero + "<br>");
+
+    var totalNumero = numero.reduce((soma, item) => {
+        return soma + item;
+    }, 0);
+
+    document.write("Reduce soma total: " + totalNumero);
+</script>
+
+</body>
+</html>

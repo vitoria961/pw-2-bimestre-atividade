@@ -1,0 +1,54 @@
+{
+    "alunos": [
+      {
+        "nome": "Ana",
+        "idade": 16,
+        "sexo": "F"
+      },
+      {
+        "nome": "Bruno",
+        "idade": 17,
+        "sexo": "M"
+      },
+      {
+        "nome": "Carlos",
+        "idade": 16,
+        "sexo": "M"
+      },
+      {
+        "nome": "Daniela",
+        "idade": 18,
+        "sexo": "F"
+      },
+      {
+        "nome": "Eduardo",
+        "idade": 17,
+        "sexo": "M"
+      },
+      {
+        "nome": "Fernanda",
+        "idade": 16,
+        "sexo": "F"
+      },
+      {
+        "nome": "Gabriel",
+        "idade": 18,
+        "sexo": "M"
+      },
+      {
+        "nome": "Helena",
+        "idade": 17,
+        "sexo": "F"
+      },
+      {
+        "nome": "Igor",
+        "idade": 16,
+        "sexo": "M"
+      },
+      {
+        "nome": "Julia",
+        "idade": 18,
+        "sexo": "F"
+      }
+    ]
+  }
